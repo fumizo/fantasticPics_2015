@@ -33,12 +33,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ybz-7v-0M7"/>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aMG-J7-PAI">
-                                <rect key="frame" x="0.0" y="240" width="320" height="320"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fantasticPics_first_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ef0-AU-qQ8">
+                                <rect key="frame" x="-47" y="48" width="412" height="290"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZ1-n8-2cg">
-                                <rect key="frame" x="98" y="102" width="125" height="125"/>
+                                <rect key="frame" x="98" y="120" width="125" height="125"/>
                                 <state key="normal" image="fantasticPics_openCameraButton.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -46,6 +45,9 @@
                                     <action selector="openingCamera" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Fim-R9-ikG"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aMG-J7-PAI">
+                                <rect key="frame" x="-1" y="248" width="322" height="320"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -58,7 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="313" y="236"/>
+            <point key="canvasLocation" x="299" y="236"/>
         </scene>
         <!--Stamp View Controller-->
         <scene sceneID="3tW-ND-i7s">
@@ -112,7 +114,7 @@
                                 <rect key="frame" x="0.0" y="28" width="320" height="320"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o1c-Du-YuT">
-                                <rect key="frame" x="6" y="420" width="240" height="128"/>
+                                <rect key="frame" x="0.0" y="419" width="240" height="128"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -132,6 +134,7 @@
         <image name="fantasticPics_PageBack.png" width="95" height="95"/>
         <image name="fantasticPics_back.png" width="95" height="95"/>
         <image name="fantasticPics_clear.png" width="95" height="95"/>
+        <image name="fantasticPics_first_bg.png" width="320" height="292"/>
         <image name="fantasticPics_openCameraButton.png" width="125" height="125"/>
         <image name="fantasticPics_save.png" width="95" height="95"/>
     </resources>

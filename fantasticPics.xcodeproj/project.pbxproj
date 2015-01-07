@@ -34,12 +34,11 @@
 		4F2C92961A4BF4B200034887 /* UT_logo_sozai.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F2C928A1A4BF4B200034887 /* UT_logo_sozai.png */; };
 		4F49018E1A4CF3E9002D6018 /* fantasticPics_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F4901881A4CF3E9002D6018 /* fantasticPics_back.png */; };
 		4F49018F1A4CF3E9002D6018 /* fantasticPics_clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F4901891A4CF3E9002D6018 /* fantasticPics_clear.png */; };
-		4F4901901A4CF3E9002D6018 /* fantasticPics_first_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F49018A1A4CF3E9002D6018 /* fantasticPics_first_bg.png */; };
 		4F4901911A4CF3E9002D6018 /* fantasticPics_openCameraButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F49018B1A4CF3E9002D6018 /* fantasticPics_openCameraButton.png */; };
 		4F4901921A4CF3E9002D6018 /* fantasticPics_PageBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F49018C1A4CF3E9002D6018 /* fantasticPics_PageBack.png */; };
 		4F4901931A4CF3E9002D6018 /* fantasticPics_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F49018D1A4CF3E9002D6018 /* fantasticPics_save.png */; };
-		4F4901951A4CFFC4002D6018 /* lifeistech_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F4901941A4CFFC4002D6018 /* lifeistech_logo.jpg */; };
 		4F8F70121A459ABE002AAC95 /* StampViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8F70111A459ABE002AAC95 /* StampViewController.m */; };
+		4FAC5FCF1A5D4381002DEDDC /* fantasticPics_first_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAC5FCE1A5D4381002DEDDC /* fantasticPics_first_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,13 +85,12 @@
 		4F2C928A1A4BF4B200034887 /* UT_logo_sozai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UT_logo_sozai.png; sourceTree = "<group>"; };
 		4F4901881A4CF3E9002D6018 /* fantasticPics_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fantasticPics_back.png; sourceTree = "<group>"; };
 		4F4901891A4CF3E9002D6018 /* fantasticPics_clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fantasticPics_clear.png; sourceTree = "<group>"; };
-		4F49018A1A4CF3E9002D6018 /* fantasticPics_first_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fantasticPics_first_bg.png; sourceTree = "<group>"; };
 		4F49018B1A4CF3E9002D6018 /* fantasticPics_openCameraButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fantasticPics_openCameraButton.png; sourceTree = "<group>"; };
 		4F49018C1A4CF3E9002D6018 /* fantasticPics_PageBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fantasticPics_PageBack.png; sourceTree = "<group>"; };
 		4F49018D1A4CF3E9002D6018 /* fantasticPics_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fantasticPics_save.png; sourceTree = "<group>"; };
-		4F4901941A4CFFC4002D6018 /* lifeistech_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lifeistech_logo.jpg; sourceTree = "<group>"; };
 		4F8F70101A459ABE002AAC95 /* StampViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StampViewController.h; path = ../StampViewController.h; sourceTree = "<group>"; };
 		4F8F70111A459ABE002AAC95 /* StampViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StampViewController.m; path = ../StampViewController.m; sourceTree = "<group>"; };
+		4FAC5FCE1A5D4381002DEDDC /* fantasticPics_first_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fantasticPics_first_bg.png; path = ../fantasticPics_first_bg.png; sourceTree = "<group>"; };
 		C303F74F678D169E28779ECB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D8063E9712DF391DC90CF6FD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,7 +131,6 @@
 		4F0A328C1A35EEF600147905 = {
 			isa = PBXGroup;
 			children = (
-				4F4901941A4CFFC4002D6018 /* lifeistech_logo.jpg */,
 				4F4901871A4CF3E9002D6018 /* fantasticPics_Image */,
 				4F2C927E1A4BF4B200034887 /* sozai */,
 				4F0A32971A35EEF600147905 /* fantasticPics */,
@@ -219,9 +216,9 @@
 		4F4901871A4CF3E9002D6018 /* fantasticPics_Image */ = {
 			isa = PBXGroup;
 			children = (
+				4FAC5FCE1A5D4381002DEDDC /* fantasticPics_first_bg.png */,
 				4F4901881A4CF3E9002D6018 /* fantasticPics_back.png */,
 				4F4901891A4CF3E9002D6018 /* fantasticPics_clear.png */,
-				4F49018A1A4CF3E9002D6018 /* fantasticPics_first_bg.png */,
 				4F49018B1A4CF3E9002D6018 /* fantasticPics_openCameraButton.png */,
 				4F49018C1A4CF3E9002D6018 /* fantasticPics_PageBack.png */,
 				4F49018D1A4CF3E9002D6018 /* fantasticPics_save.png */,
@@ -331,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FAC5FCF1A5D4381002DEDDC /* fantasticPics_first_bg.png in Resources */,
 				4F2C92921A4BF4B200034887 /* simamura_logo_sozai.png in Resources */,
 				4F2C92951A4BF4B200034887 /* UT_990yen_sozai.png in Resources */,
 				4F4901911A4CF3E9002D6018 /* fantasticPics_openCameraButton.png in Resources */,
@@ -338,12 +336,10 @@
 				4F0A32A41A35EEF600147905 /* Main.storyboard in Resources */,
 				4F0A32A91A35EEF600147905 /* LaunchScreen.xib in Resources */,
 				4F49018E1A4CF3E9002D6018 /* fantasticPics_back.png in Resources */,
-				4F4901901A4CF3E9002D6018 /* fantasticPics_first_bg.png in Resources */,
 				4F2C92901A4BF4B200034887 /* MUSEE_summer_sozai.png in Resources */,
 				4F2C928F1A4BF4B200034887 /* MUSEE.logo_sozai.png in Resources */,
 				4F4901921A4CF3E9002D6018 /* fantasticPics_PageBack.png in Resources */,
 				4F49018F1A4CF3E9002D6018 /* fantasticPics_clear.png in Resources */,
-				4F4901951A4CFFC4002D6018 /* lifeistech_logo.jpg in Resources */,
 				4F2C92941A4BF4B200034887 /* UT_990yen.jpg in Resources */,
 				4F2C92911A4BF4B200034887 /* MUSEE_夏恋肌.png in Resources */,
 				4F4901931A4CF3E9002D6018 /* fantasticPics_save.png in Resources */,
