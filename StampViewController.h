@@ -22,6 +22,7 @@
     IBOutlet UIScrollView *stampScrool;
     
     
+    
     //ここからCGGestureRecognizer
     CGAffineTransform _currentTransform;
     float _scale;
