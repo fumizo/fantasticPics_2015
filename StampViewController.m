@@ -127,6 +127,7 @@
         stampImgView.backgroundColor = [UIColor clearColor];
         stampView =  [[UIView alloc] initWithFrame:CGRectMake(0,0,stampImgView.frame.size.width,stampImgView.frame.size.height)];
         [stampView addSubview:stampImgView];
+        index = 0;
         
         //ここで調節のやつを呼んでみる
         [self reSizeButtons];
