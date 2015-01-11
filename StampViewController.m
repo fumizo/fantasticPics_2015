@@ -23,7 +23,7 @@
 //    [stampView addGestureRecognizer:pinch];
     
     
-    index =0;
+    index = 0;
     stampArray[0] = @"UT_990yen_sozai";  //990円のやつ
     stampArray[1] = @"simamura_logo_sozai";  //しまむらロゴ
     stampArray[2] = @"MUSEE_summer_sozai";   //ミュゼ200円
@@ -78,12 +78,13 @@
     
     }
 
+/*
 //UIGestureRecognizerについて
 //ジェスチャーの同時処理を許可
 - (BOOL) gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
     return YES;
 }
-
+*/
 
 
 //ボタンが押されたときの処理
@@ -127,7 +128,7 @@
         stampImgView.backgroundColor = [UIColor clearColor];
         stampView =  [[UIView alloc] initWithFrame:CGRectMake(0,0,stampImgView.frame.size.width,stampImgView.frame.size.height)];
         [stampView addSubview:stampImgView];
-        index = 0;
+        index = 0;  //一回スタンプしたらindexを0にして、押せなくするのよ
         
         //ここで調節のやつを呼んでみる
         [self reSizeButtons];
@@ -137,10 +138,12 @@
         viewList[count] = stampImgView;
         count = count +1;
     
+        /*
         // UIPinchGestureRecognizerを登録
         UIPinchGestureRecognizer *pinch = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(pinchAction:)];
         pinch.delegate = self;
         [stampView addGestureRecognizer:pinch];
+         */
         [self.view addSubview:stampView]; //画像に表示する
         
     }
@@ -150,6 +153,7 @@
 
 }
 
+/*ライブラリのやつ使うからコメントアウトするよ
 //拡大縮小する
 - (void)pinchAction:(UIPinchGestureRecognizer *)sender {
     stampView = sender.view;
@@ -158,6 +162,7 @@
     // ピンチの操作開始してからの拡大縮小を、transformで設定
     stampView.transform = CGAffineTransformConcat(stampView.transform, CGAffineTransformMakeScale(scale, scale));
 }
+ */
 
 
 - (void)didReceiveMemoryWarning {
@@ -289,6 +294,8 @@
         viewList[count] = Nil;
     }
 }
+
+
 
 //ここから下にサイズ、傾きのやつ
 -(void)singleTap:(UIPanGestureRecognizer *)recognizer
