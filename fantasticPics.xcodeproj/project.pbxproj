@@ -11,6 +11,13 @@
 		4F0322BA1A62A08A00E0B6D4 /* button_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0322B81A62A08A00E0B6D4 /* button_02.png */; };
 		4F0322BB1A62A08A00E0B6D4 /* button_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0322B91A62A08A00E0B6D4 /* button_01.png */; };
 		4F0322BD1A62A09600E0B6D4 /* close_gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0322BC1A62A09600E0B6D4 /* close_gold.png */; };
+		4F0322BF1A62C30500E0B6D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0322BE1A62C30500E0B6D4 /* Foundation.framework */; };
+		4F0322C11A62C31600E0B6D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0322C01A62C31600E0B6D4 /* CoreGraphics.framework */; };
+		4F0322C31A62C32300E0B6D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0322C21A62C32300E0B6D4 /* UIKit.framework */; };
+		4F0322D01A62C4DD00E0B6D4 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0322CF1A62C4DD00E0B6D4 /* AnimationViewController.m */; };
+		4F0322D21A62C55400E0B6D4 /* testImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0322D11A62C55400E0B6D4 /* testImage.png */; };
+		4F0322DB1A62D25400E0B6D4 /* ImageFlipGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0322D81A62D25400E0B6D4 /* ImageFlipGrid.m */; };
+		4F0322DC1A62D25400E0B6D4 /* mrmUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0322DA1A62D25400E0B6D4 /* mrmUtility.m */; };
 		4F0A329B1A35EEF600147905 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A329A1A35EEF600147905 /* main.m */; };
 		4F0A329E1A35EEF600147905 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A329D1A35EEF600147905 /* AppDelegate.m */; };
 		4F0A32A11A35EEF600147905 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A32A01A35EEF600147905 /* ViewController.m */; };
@@ -59,6 +66,16 @@
 		4F0322B81A62A08A00E0B6D4 /* button_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_02.png; sourceTree = "<group>"; };
 		4F0322B91A62A08A00E0B6D4 /* button_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_01.png; sourceTree = "<group>"; };
 		4F0322BC1A62A09600E0B6D4 /* close_gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_gold.png; sourceTree = "<group>"; };
+		4F0322BE1A62C30500E0B6D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F0322C01A62C31600E0B6D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F0322C21A62C32300E0B6D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F0322CE1A62C4DD00E0B6D4 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		4F0322CF1A62C4DD00E0B6D4 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		4F0322D11A62C55400E0B6D4 /* testImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage.png; sourceTree = "<group>"; };
+		4F0322D71A62D25400E0B6D4 /* ImageFlipGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFlipGrid.h; sourceTree = "<group>"; };
+		4F0322D81A62D25400E0B6D4 /* ImageFlipGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFlipGrid.m; sourceTree = "<group>"; };
+		4F0322D91A62D25400E0B6D4 /* mrmUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mrmUtility.h; sourceTree = "<group>"; };
+		4F0322DA1A62D25400E0B6D4 /* mrmUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mrmUtility.m; sourceTree = "<group>"; };
 		4F0A32951A35EEF600147905 /* fantasticPics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fantasticPics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0A32991A35EEF600147905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F0A329A1A35EEF600147905 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -106,6 +123,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0322C31A62C32300E0B6D4 /* UIKit.framework in Frameworks */,
+				4F0322C11A62C31600E0B6D4 /* CoreGraphics.framework in Frameworks */,
+				4F0322BF1A62C30500E0B6D4 /* Foundation.framework in Frameworks */,
 				4F0A32C51A35EF4D00147905 /* QuartzCore.framework in Frameworks */,
 				4F0A32C71A35EF5A00147905 /* MobileCoreServices.framework in Frameworks */,
 				4F0A32C31A35EF4000147905 /* CoreMedia.framework in Frameworks */,
@@ -134,9 +154,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4F0322D61A62D25400E0B6D4 /* ImageFlipGrid */ = {
+			isa = PBXGroup;
+			children = (
+				4F0322D71A62D25400E0B6D4 /* ImageFlipGrid.h */,
+				4F0322D81A62D25400E0B6D4 /* ImageFlipGrid.m */,
+				4F0322D91A62D25400E0B6D4 /* mrmUtility.h */,
+				4F0322DA1A62D25400E0B6D4 /* mrmUtility.m */,
+			);
+			path = ImageFlipGrid;
+			sourceTree = "<group>";
+		};
 		4F0A328C1A35EEF600147905 = {
 			isa = PBXGroup;
 			children = (
+				4F0322D11A62C55400E0B6D4 /* testImage.png */,
+				4F0322CE1A62C4DD00E0B6D4 /* AnimationViewController.h */,
+				4F0322CF1A62C4DD00E0B6D4 /* AnimationViewController.m */,
+				4F0322D61A62D25400E0B6D4 /* ImageFlipGrid */,
 				4F0322BC1A62A09600E0B6D4 /* close_gold.png */,
 				4F0322B81A62A08A00E0B6D4 /* button_02.png */,
 				4F0322B91A62A08A00E0B6D4 /* button_01.png */,
@@ -250,6 +285,9 @@
 		969D7BF2723A23C8BE23E46B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F0322C21A62C32300E0B6D4 /* UIKit.framework */,
+				4F0322C01A62C31600E0B6D4 /* CoreGraphics.framework */,
+				4F0322BE1A62C30500E0B6D4 /* Foundation.framework */,
 				0119756071205E1AC6AC1F20 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -357,6 +395,7 @@
 				4F2C92931A4BF4B200034887 /* simamura_logo_sozai1024*1024].png in Resources */,
 				4F2C928B1A4BF4B200034887 /* highBall_haikara.jpg in Resources */,
 				4F2C928D1A4BF4B200034887 /* highBall_miho.jpg in Resources */,
+				4F0322D21A62C55400E0B6D4 /* testImage.png in Resources */,
 				4FAC5FD81A5ED665002DEDDC /* fantasticPics_button_clear.png in Resources */,
 				4F0322BA1A62A08A00E0B6D4 /* button_02.png in Resources */,
 				4F0A32A61A35EEF600147905 /* Images.xcassets in Resources */,
@@ -412,8 +451,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0322DB1A62D25400E0B6D4 /* ImageFlipGrid.m in Sources */,
 				4F8F70121A459ABE002AAC95 /* StampViewController.m in Sources */,
+				4F0322D01A62C4DD00E0B6D4 /* AnimationViewController.m in Sources */,
 				4F0A32A11A35EEF600147905 /* ViewController.m in Sources */,
+				4F0322DC1A62D25400E0B6D4 /* mrmUtility.m in Sources */,
 				4F0A329E1A35EEF600147905 /* AppDelegate.m in Sources */,
 				4F0A329B1A35EEF600147905 /* main.m in Sources */,
 			);

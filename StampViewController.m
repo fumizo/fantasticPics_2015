@@ -325,9 +325,6 @@
             rotateVw.frame = CGRectMake(0, stampImgView.bounds.size.height-25, 25, 25);
             closeVw.frame = CGRectMake(0, 0, 25, 25);
             
-            
-            
-            
         }
         
         if(stampImgView.bounds.size.height < 20)
