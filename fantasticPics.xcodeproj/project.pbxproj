@@ -18,6 +18,8 @@
 		4F0322D21A62C55400E0B6D4 /* testImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0322D11A62C55400E0B6D4 /* testImage.png */; };
 		4F0322DB1A62D25400E0B6D4 /* ImageFlipGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0322D81A62D25400E0B6D4 /* ImageFlipGrid.m */; };
 		4F0322DC1A62D25400E0B6D4 /* mrmUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0322DA1A62D25400E0B6D4 /* mrmUtility.m */; };
+		4F0322DE1A62D9A300E0B6D4 /* fantasticPics_backG.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0322DD1A62D9A300E0B6D4 /* fantasticPics_backG.png */; };
+		4F0322E61A62E54C00E0B6D4 /* fantasticPics_first_animation.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0322E51A62E54B00E0B6D4 /* fantasticPics_first_animation.png */; };
 		4F0A329B1A35EEF600147905 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A329A1A35EEF600147905 /* main.m */; };
 		4F0A329E1A35EEF600147905 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A329D1A35EEF600147905 /* AppDelegate.m */; };
 		4F0A32A11A35EEF600147905 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A32A01A35EEF600147905 /* ViewController.m */; };
@@ -76,6 +78,8 @@
 		4F0322D81A62D25400E0B6D4 /* ImageFlipGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFlipGrid.m; sourceTree = "<group>"; };
 		4F0322D91A62D25400E0B6D4 /* mrmUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mrmUtility.h; sourceTree = "<group>"; };
 		4F0322DA1A62D25400E0B6D4 /* mrmUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mrmUtility.m; sourceTree = "<group>"; };
+		4F0322DD1A62D9A300E0B6D4 /* fantasticPics_backG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fantasticPics_backG.png; sourceTree = "<group>"; };
+		4F0322E51A62E54B00E0B6D4 /* fantasticPics_first_animation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fantasticPics_first_animation.png; sourceTree = "<group>"; };
 		4F0A32951A35EEF600147905 /* fantasticPics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fantasticPics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0A32991A35EEF600147905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F0A329A1A35EEF600147905 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -168,6 +172,8 @@
 		4F0A328C1A35EEF600147905 = {
 			isa = PBXGroup;
 			children = (
+				4F0322E51A62E54B00E0B6D4 /* fantasticPics_first_animation.png */,
+				4F0322DD1A62D9A300E0B6D4 /* fantasticPics_backG.png */,
 				4F0322D11A62C55400E0B6D4 /* testImage.png */,
 				4F0322CE1A62C4DD00E0B6D4 /* AnimationViewController.h */,
 				4F0322CF1A62C4DD00E0B6D4 /* AnimationViewController.m */,
@@ -379,12 +385,14 @@
 				4F2C92921A4BF4B200034887 /* simamura_logo_sozai.png in Resources */,
 				4F2C92951A4BF4B200034887 /* UT_990yen_sozai.png in Resources */,
 				4FAC5FD91A5ED665002DEDDC /* fantasticPics_button_pageback.png in Resources */,
+				4F0322E61A62E54C00E0B6D4 /* fantasticPics_first_animation.png in Resources */,
 				4F2C92961A4BF4B200034887 /* UT_logo_sozai.png in Resources */,
 				4F0322BB1A62A08A00E0B6D4 /* button_01.png in Resources */,
 				4F0A32A41A35EEF600147905 /* Main.storyboard in Resources */,
 				4FAC5FDA1A5ED665002DEDDC /* fantasticPics_button_save.png in Resources */,
 				4F0A32A91A35EEF600147905 /* LaunchScreen.xib in Resources */,
 				4F2C92901A4BF4B200034887 /* MUSEE_summer_sozai.png in Resources */,
+				4F0322DE1A62D9A300E0B6D4 /* fantasticPics_backG.png in Resources */,
 				4F2C928F1A4BF4B200034887 /* MUSEE.logo_sozai.png in Resources */,
 				4FAC5FD71A5ED665002DEDDC /* fantasticPics_button_back.png in Resources */,
 				4F0322BD1A62A09600E0B6D4 /* close_gold.png in Resources */,

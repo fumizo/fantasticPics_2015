@@ -11,6 +11,12 @@
                     <view key="view" contentMode="scaleToFill" id="xnQ-rN-mF7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fantasticPics_backG.png" id="Hdc-Kw-svb" customClass="fantasticPics_backG">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -146,6 +152,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="fantasticPics_backG.png" width="409" height="519"/>
         <image name="fantasticPics_button_back.png" width="102" height="66"/>
         <image name="fantasticPics_button_clear.png" width="102" height="66"/>
         <image name="fantasticPics_button_pageback.png" width="102" height="66"/>

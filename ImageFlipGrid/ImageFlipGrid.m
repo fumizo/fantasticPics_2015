@@ -149,7 +149,8 @@
         
     }
     
-    [NSTimer scheduledTimerWithTimeInterval:6.0f target:self selector:@selector(doFlipAnimation) userInfo:nil repeats:NO];
+    [NSTimer scheduledTimerWithTimeInterval:3.3f target:self selector:@selector(doFlipAnimation) userInfo:nil repeats:NO];
+    //何秒ごとに呼ぶのか
 }
 
 
