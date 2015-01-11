@@ -30,8 +30,16 @@
     BOOL _isMoving;
     
     
-    UIImageView *stampImgView;
-    UIView *stampView;
+    UIImageView *stampImgView;  //画像自体
+    UIView *stampView;          //うしろでこれに画像自体を置いてる
+    
+    UIImageView *resizeVw;   //サイズ変える
+    UIImageView *rotateVw;  //これが角度
+    UIImageView *closeVw;   //これで閉じる
+    
+    float deltaAngle;
+    CGPoint prevPoint;
+    CGAffineTransform startTransform;
 
     
 }

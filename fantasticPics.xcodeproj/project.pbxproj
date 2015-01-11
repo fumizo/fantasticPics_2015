@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		028B8BB66A1612DCD0FD724B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0119756071205E1AC6AC1F20 /* libPods.a */; };
+		4F0322BA1A62A08A00E0B6D4 /* button_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0322B81A62A08A00E0B6D4 /* button_02.png */; };
+		4F0322BB1A62A08A00E0B6D4 /* button_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0322B91A62A08A00E0B6D4 /* button_01.png */; };
+		4F0322BD1A62A09600E0B6D4 /* close_gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0322BC1A62A09600E0B6D4 /* close_gold.png */; };
 		4F0A329B1A35EEF600147905 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A329A1A35EEF600147905 /* main.m */; };
 		4F0A329E1A35EEF600147905 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A329D1A35EEF600147905 /* AppDelegate.m */; };
 		4F0A32A11A35EEF600147905 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A32A01A35EEF600147905 /* ViewController.m */; };
@@ -53,6 +56,9 @@
 
 /* Begin PBXFileReference section */
 		0119756071205E1AC6AC1F20 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0322B81A62A08A00E0B6D4 /* button_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_02.png; sourceTree = "<group>"; };
+		4F0322B91A62A08A00E0B6D4 /* button_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_01.png; sourceTree = "<group>"; };
+		4F0322BC1A62A09600E0B6D4 /* close_gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_gold.png; sourceTree = "<group>"; };
 		4F0A32951A35EEF600147905 /* fantasticPics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fantasticPics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0A32991A35EEF600147905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F0A329A1A35EEF600147905 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -100,8 +106,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F0A32C71A35EF5A00147905 /* MobileCoreServices.framework in Frameworks */,
 				4F0A32C51A35EF4D00147905 /* QuartzCore.framework in Frameworks */,
+				4F0A32C71A35EF5A00147905 /* MobileCoreServices.framework in Frameworks */,
 				4F0A32C31A35EF4000147905 /* CoreMedia.framework in Frameworks */,
 				4F0A32C11A35EF3200147905 /* CoreVideo.framework in Frameworks */,
 				4F0A32BF1A35EF2400147905 /* AVFoundation.framework in Frameworks */,
@@ -131,6 +137,9 @@
 		4F0A328C1A35EEF600147905 = {
 			isa = PBXGroup;
 			children = (
+				4F0322BC1A62A09600E0B6D4 /* close_gold.png */,
+				4F0322B81A62A08A00E0B6D4 /* button_02.png */,
+				4F0322B91A62A08A00E0B6D4 /* button_01.png */,
 				4FAC5FD01A5ED665002DEDDC /* fantasticPics_Image */,
 				4F2C927E1A4BF4B200034887 /* sozai */,
 				4F0A32971A35EEF600147905 /* fantasticPics */,
@@ -297,6 +306,7 @@
 				TargetAttributes = {
 					4F0A32941A35EEF600147905 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 29KDR34G88;
 					};
 					4F0A32AD1A35EEF600147905 = {
 						CreatedOnToolsVersion = 6.1;
@@ -332,12 +342,14 @@
 				4F2C92951A4BF4B200034887 /* UT_990yen_sozai.png in Resources */,
 				4FAC5FD91A5ED665002DEDDC /* fantasticPics_button_pageback.png in Resources */,
 				4F2C92961A4BF4B200034887 /* UT_logo_sozai.png in Resources */,
+				4F0322BB1A62A08A00E0B6D4 /* button_01.png in Resources */,
 				4F0A32A41A35EEF600147905 /* Main.storyboard in Resources */,
 				4FAC5FDA1A5ED665002DEDDC /* fantasticPics_button_save.png in Resources */,
 				4F0A32A91A35EEF600147905 /* LaunchScreen.xib in Resources */,
 				4F2C92901A4BF4B200034887 /* MUSEE_summer_sozai.png in Resources */,
 				4F2C928F1A4BF4B200034887 /* MUSEE.logo_sozai.png in Resources */,
 				4FAC5FD71A5ED665002DEDDC /* fantasticPics_button_back.png in Resources */,
+				4F0322BD1A62A09600E0B6D4 /* close_gold.png in Resources */,
 				4F2C92941A4BF4B200034887 /* UT_990yen.jpg in Resources */,
 				4F2C92911A4BF4B200034887 /* MUSEE_夏恋肌.png in Resources */,
 				4FAC5FDB1A5ED665002DEDDC /* fantasticPics_first_bg.png in Resources */,
@@ -346,6 +358,7 @@
 				4F2C928B1A4BF4B200034887 /* highBall_haikara.jpg in Resources */,
 				4F2C928D1A4BF4B200034887 /* highBall_miho.jpg in Resources */,
 				4FAC5FD81A5ED665002DEDDC /* fantasticPics_button_clear.png in Resources */,
+				4F0322BA1A62A08A00E0B6D4 /* button_02.png in Resources */,
 				4F0A32A61A35EEF600147905 /* Images.xcassets in Resources */,
 				4FAC5FDC1A5ED665002DEDDC /* fantasticPics_openCameraButton.png in Resources */,
 				4F2C928C1A4BF4B200034887 /* highBall_haikara_sozai.png in Resources */,
@@ -525,10 +538,13 @@
 			baseConfigurationReference = D8063E9712DF391DC90CF6FD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = fantasticPics/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "90fd6d8e-2968-4372-afa4-53cdbf7ec40d";
 			};
 			name = Debug;
 		};
@@ -537,10 +553,13 @@
 			baseConfigurationReference = C303F74F678D169E28779ECB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = fantasticPics/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "90fd6d8e-2968-4372-afa4-53cdbf7ec40d";
 			};
 			name = Release;
 		};

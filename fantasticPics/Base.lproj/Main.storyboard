@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="L7A-wK-fdY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="L7A-wK-fdY">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -19,25 +19,23 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wiL-1o-CnU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-117" y="236"/>
+            <point key="canvasLocation" x="-276" y="223"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fantasticPics_first_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ef0-AU-qQ8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fantasticPics_first_bg.png" id="Ef0-AU-qQ8">
                                 <rect key="frame" x="-47" y="48" width="412" height="290"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZ1-n8-2cg">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IZ1-n8-2cg">
                                 <rect key="frame" x="98" y="120" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="fantasticPics_openCameraButton.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -45,8 +43,9 @@
                                     <action selector="openingCamera" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Fim-R9-ikG"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aMG-J7-PAI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="aMG-J7-PAI">
                                 <rect key="frame" x="-1" y="248" width="322" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -60,61 +59,63 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="299" y="236"/>
+            <point key="canvasLocation" x="159.46666666666667" y="223.41333333333333"/>
         </scene>
         <!--Stamp View Controller-->
         <scene sceneID="3tW-ND-i7s">
             <objects>
                 <viewController storyboardIdentifier="stamp" id="c3H-Zx-qAH" customClass="StampViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lA2-SU-dir"/>
-                        <viewControllerLayoutGuide type="bottom" id="0C5-rg-ICQ"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="UOg-c9-xWJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsF-CS-BzJ">
-                                <rect key="frame" x="69" y="344" width="67" height="67"/>
-                                <state key="normal" image="fantasticPics_PageBack.png">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gsF-CS-BzJ">
+                                <rect key="frame" x="3" y="362" width="75" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="fantasticPics_button_pageback.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="back" destination="c3H-Zx-qAH" eventType="touchUpInside" id="wVx-6j-VLH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsq-w3-x7b">
-                                <rect key="frame" x="237" y="340" width="67" height="67"/>
-                                <state key="normal" image="fantasticPics_clear.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="clearStamp" destination="c3H-Zx-qAH" eventType="touchUpInside" id="7Sm-sH-O8o"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9H-gY-rZa">
-                                <rect key="frame" x="153" y="344" width="63" height="63"/>
-                                <state key="normal" image="fantasticPics_back.png">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="e9H-gY-rZa">
+                                <rect key="frame" x="160" y="362" width="75" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="fantasticPics_button_back.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="backStamp" destination="c3H-Zx-qAH" eventType="touchUpInside" id="OfL-JQ-U6b"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0d-tm-7y2">
-                                <rect key="frame" x="0.0" y="347" width="61" height="61"/>
-                                <state key="normal" image="fantasticPics_save.png">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="w0d-tm-7y2">
+                                <rect key="frame" x="82" y="362" width="75" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="fantasticPics_button_save.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="saveImage" destination="c3H-Zx-qAH" eventType="touchUpInside" id="aOw-up-PrN"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L3o-FI-Fxr">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="L3o-FI-Fxr">
                                 <rect key="frame" x="0.0" y="28" width="320" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o1c-Du-YuT">
-                                <rect key="frame" x="0.0" y="419" width="240" height="128"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Bsq-w3-x7b">
+                                <rect key="frame" x="238" y="362" width="75" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="fantasticPics_button_clear.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearStamp" destination="c3H-Zx-qAH" eventType="touchUpInside" id="7Sm-sH-O8o"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="o1c-Du-YuT">
+                                <rect key="frame" x="0.0" y="419" width="320" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -122,20 +123,25 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="photoView" destination="L3o-FI-Fxr" id="Znl-5M-Yqg"/>
-                        <outlet property="stampScrool" destination="o1c-Du-YuT" id="tJm-yA-MaG"/>
+                        <outlet property="stampScrool" destination="o1c-Du-YuT" id="ORU-za-0Hd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SnA-HY-Ww9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="685" y="226"/>
+            <point key="canvasLocation" x="516" y="243"/>
         </scene>
     </scenes>
     <resources>
-        <image name="fantasticPics_PageBack.png" width="95" height="95"/>
-        <image name="fantasticPics_back.png" width="95" height="95"/>
-        <image name="fantasticPics_clear.png" width="95" height="95"/>
+        <image name="fantasticPics_button_back.png" width="102" height="66"/>
+        <image name="fantasticPics_button_clear.png" width="102" height="66"/>
+        <image name="fantasticPics_button_pageback.png" width="102" height="66"/>
+        <image name="fantasticPics_button_save.png" width="102" height="66"/>
         <image name="fantasticPics_first_bg.png" width="320" height="292"/>
         <image name="fantasticPics_openCameraButton.png" width="125" height="125"/>
-        <image name="fantasticPics_save.png" width="95" height="95"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>
