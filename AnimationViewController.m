@@ -12,6 +12,8 @@
 
 @implementation AnimationViewController{
     UIImageView *imageView;
+    UIImageView *imageView2;
+
 }
 
 - (void)viewDidLoad
@@ -31,12 +33,13 @@
     
     UIImage *startring = [UIImage imageNamed:@"fantasticPics_startring"];
     imageView = [[UIImageView alloc]initWithImage:startring];
-//    imageView.center = CGPointMake(160, 284);
-//    UIGraphicsBeginImageContext(CGSizeMake(100,100));
-    CGRect rect = CGRectMake(110, 234, 100, 100);
-    imageView.frame = rect;
-    
-    [self.view addSubview:imageView];
+
+    UIImage *startring2 = [UIImage imageNamed:@"fantasticPics_startring"];
+    imageView2 = [[UIImageView alloc]initWithImage:startring2];
+
+    [self resetImageView];
+    [self resetImageView2];
+
     
     
     //Animate flip grid
@@ -53,12 +56,53 @@
     //    [flipGrid.view.layer addAnimation:basic forKey:@"basic"];
 }
 
--(void)big{
-    
+-(void)ring{
+    // アニメーション
+    [UIView animateWithDuration:2.5f // アニメーション速度2.5秒
+                          delay:0 // 1秒後にアニメーション
+                        options:UIViewAnimationOptionCurveEaseInOut|UIViewAnimationOptionRepeat
+                     animations:^{
+                         // 画像を2倍に拡大
+                         imageView.transform = CGAffineTransformMakeScale(1.7,  1.7);
+                         imageView.alpha = 0;
+                     } completion:^(BOOL finished) {
+                         // アニメーション終了時
+                         NSLog(@"アニメーション終了");
+                     }];
 }
 
--(void)small{
+-(void)ring2{
+    [UIView animateWithDuration:2.5f // アニメーション速度2.5秒
+                          delay:1.25f // 1秒後にアニメーション
+                        options:UIViewAnimationOptionCurveEaseInOut|UIViewAnimationOptionRepeat
+                     animations:^{
+                         // 画像を2倍に拡大
+                         imageView2.transform = CGAffineTransformMakeScale(1.7,  1.7);
+                         imageView2.alpha = 0;
+                     } completion:^(BOOL finished) {
+                         // アニメーション終了時
+                         NSLog(@"アニメーション終了");
+                     }];
+
+}
+
+-(void)resetImageView{
+    CGRect rect = CGRectMake(110, 234, 100, 100);
     
+    imageView.frame = rect;
+    [self.view addSubview:imageView]; //ring1を表示
+    imageView.alpha = 1.0;
+    [self ring];
+
+}
+
+-(void)resetImageView2{
+    CGRect rect = CGRectMake(110, 234, 100, 100);
+    imageView2.frame = rect;
+    [self.view addSubview:imageView2]; //ring1を表示
+    imageView2.alpha = 1.0;
+    [self ring2];
+
 }
 
 - (void)didReceiveMemoryWarning
