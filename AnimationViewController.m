@@ -10,7 +10,9 @@
 #import "ImageFlipGrid.h"
 #import "mrmUtility.h"
 
-@implementation AnimationViewController
+@implementation AnimationViewController{
+    UIImageView *imageView;
+}
 
 - (void)viewDidLoad
 {
@@ -26,6 +28,17 @@
     self.flipGrid.view.frame = originalFrame;
     
     
+    
+    UIImage *startring = [UIImage imageNamed:@"fantasticPics_startring"];
+    imageView = [[UIImageView alloc]initWithImage:startring];
+//    imageView.center = CGPointMake(160, 284);
+//    UIGraphicsBeginImageContext(CGSizeMake(100,100));
+    CGRect rect = CGRectMake(110, 234, 100, 100);
+    imageView.frame = rect;
+    
+    [self.view addSubview:imageView];
+    
+    
     //Animate flip grid
     //    flipGrid.view.layer.transform = [mrmUtility rotateView:flipGrid.view byX:0 byY:0];
     //
@@ -38,6 +51,14 @@
     //
     //
     //    [flipGrid.view.layer addAnimation:basic forKey:@"basic"];
+}
+
+-(void)big{
+    
+}
+
+-(void)small{
+    
 }
 
 - (void)didReceiveMemoryWarning
