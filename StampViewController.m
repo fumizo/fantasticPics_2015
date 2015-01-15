@@ -89,30 +89,34 @@
 
 //ボタンが押されたときの処理
 -(void)tap:(UIButton*)button{
-    switch (button.tag) {
-        case 0:
-            [self stamp1];
-            break;
-        case 1:
-            [self stamp2];
-            break;
-        case 2:
-            [self stamp3];
-            break;
-        case 3:
-            [self stamp4];
-            break;
-        case 4:
-            [self stamp5];
-            break;
-        case 5:
-            [self stamp6];
-            break;
-            
-        default:
-            break;
+    
+        switch (button.tag) {
+            case 0:
+                [self stamp1];
+                break;
+            case 1:
+                [self stamp2];
+                break;
+            case 2:
+                [self stamp3];
+                break;
+            case 3:
+                [self stamp4];
+                break;
+            case 4:
+                [self stamp5];
+                break;
+            case 5:
+                [self stamp6];
+                break;
+                
+            default:
+                break;
+//        isReSize = NO ;
+
     }
-}
+    
+    }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     
@@ -131,7 +135,9 @@
         index = 0;  //一回スタンプしたらindexを0にして、押せなくするのよ
         
         //ここで調節のやつを呼んでみる
-        [self reSizeButtons];
+        if (isReSize == YES) {
+            [self reSizeButtons];
+        }
         
         stampView.center = CGPointMake(location.x, location.y);
         
@@ -172,6 +178,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    isReSize = YES;
     NSData* imageData = [[NSUserDefaults standardUserDefaults] objectForKey:@"hogehoge"];
     if(imageData) {
         self.photoView.image = [UIImage imageWithData:imageData];
@@ -224,6 +231,9 @@
 }
 
 - (void)reSizeButtons{
+    
+    if (isReSize == YES) {
+        
     //サイズの調整
     //Close button view which is in top left corner
     closeVw = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 25, 25)];
@@ -255,6 +265,9 @@
     UIPanGestureRecognizer * panRotateGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(rotateViewPanGesture:)];
     [rotateVw addGestureRecognizer:panRotateGesture];
     [panRotateGesture requireGestureRecognizerToFail:panResizeGesture];
+        
+    isReSize = NO ;
+    }
 }
 
 

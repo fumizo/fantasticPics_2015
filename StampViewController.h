@@ -41,6 +41,7 @@
     CGPoint prevPoint;
     CGAffineTransform startTransform;
 
+    BOOL isReSize;//四隅のやつがいらなくなったらnoにいるときはonに
     
 }
 

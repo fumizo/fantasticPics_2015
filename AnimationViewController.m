@@ -73,7 +73,7 @@
 
 -(void)ring2{
     [UIView animateWithDuration:2.5f // アニメーション速度2.5秒
-                          delay:1.25f // 1秒後にアニメーション
+                          delay:1.1f // 1秒後にアニメーション
                         options:UIViewAnimationOptionCurveEaseInOut|UIViewAnimationOptionRepeat
                      animations:^{
                          // 画像を2倍に拡大
