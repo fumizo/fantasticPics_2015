@@ -135,9 +135,7 @@
         index = 0;  //一回スタンプしたらindexを0にして、押せなくするのよ
         
         //ここで調節のやつを呼んでみる
-        if (isReSize == YES) {
-            [self reSizeButtons];
-        }
+        [self reSizeButtons];
         
         stampView.center = CGPointMake(location.x, location.y);
         
@@ -179,6 +177,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     isReSize = YES;
+    
     NSData* imageData = [[NSUserDefaults standardUserDefaults] objectForKey:@"hogehoge"];
     if(imageData) {
         self.photoView.image = [UIImage imageWithData:imageData];
@@ -232,8 +231,6 @@
 
 - (void)reSizeButtons{
     
-    if (isReSize == YES) {
-        
     //サイズの調整
     //Close button view which is in top left corner
     closeVw = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 25, 25)];
@@ -266,8 +263,7 @@
     [rotateVw addGestureRecognizer:panRotateGesture];
     [panRotateGesture requireGestureRecognizerToFail:panResizeGesture];
         
-    isReSize = NO ;
-    }
+//    isReSize = NO ;
 }
 
 
@@ -317,6 +313,8 @@
     [close.superview removeFromSuperview];
     
 }
+
+//stampArray[index-2]
 
 -(void)resizeTranslate:(UIPanGestureRecognizer *)recognizer
 {
