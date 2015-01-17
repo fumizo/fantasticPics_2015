@@ -90,6 +90,8 @@
 //ボタンが押されたときの処理
 -(void)tap:(UIButton*)button{
     
+    [self removeResizeButtons];
+    
         switch (button.tag) {
             case 0:
                 [self stamp1];
@@ -129,6 +131,8 @@
 
         //In visible background view
         stampImgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:stampArray[index-1]]];
+//        stampView = [self.view viewWithTag:index-1];
+//        [stampImgView setTag: index-1]; //今のスタンプにタグをつける。indexと同じ番号
         stampImgView.backgroundColor = [UIColor clearColor];
         stampView =  [[UIView alloc] initWithFrame:CGRectMake(0,0,stampImgView.frame.size.width,stampImgView.frame.size.height)];
         [stampView addSubview:stampImgView];
@@ -312,6 +316,14 @@
     UIView * close = (UIView *)[recognizer view];
     [close.superview removeFromSuperview];
     
+}
+
+-(void)removeResizeButtons{
+
+//    [self.view viewWithTag:1];
+    [closeVw removeFromSuperview];
+    [rotateVw removeFromSuperview];
+    [resizeVw removeFromSuperview];
 }
 
 //stampArray[index-2]
