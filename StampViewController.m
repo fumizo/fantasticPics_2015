@@ -231,6 +231,8 @@
     }else{
         NSLog(@"復元失敗");
     }
+    
+    [self removeResizeButtons];
 }
 
 - (void)reSizeButtons{
