@@ -232,7 +232,6 @@
         NSLog(@"復元失敗");
     }
     
-    [self removeResizeButtons];
 }
 
 - (void)reSizeButtons{
@@ -294,6 +293,9 @@
 }
 
 -(IBAction)backStamp{
+    
+    [self removeResizeButtons];
+    
     if (count > 0) {
         count = count-1;
         [viewList[count] removeFromSuperview];

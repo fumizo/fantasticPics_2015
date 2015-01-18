@@ -13,6 +13,8 @@
 @implementation AnimationViewController{
     UIImageView *imageView;
     UIImageView *imageView2;
+    UIImageView *making;
+
 
 }
 
@@ -54,6 +56,22 @@
     //
     //
     //    [flipGrid.view.layer addAnimation:basic forKey:@"basic"];
+}
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    
+    //    タッチされた場所の所得
+    UITouch *touch = [touches anyObject];
+    //    指一本だけ情報を所得
+    CGPoint location = [touch locationInView:self.view];
+    //   その位置を所得
+    
+    UIImage *makingRing = [UIImage imageNamed:@"fantasticPics_startring"];
+    making = [[UIImageView alloc]initWithImage:makingRing];
+    
+    making.center = CGPointMake(location.x, location.y);
+    
+    [self.view addSubview:making];
 }
 
 -(void)ring{
