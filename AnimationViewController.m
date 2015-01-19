@@ -61,6 +61,7 @@
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     
     //    タッチされた場所の所得
+    
     UITouch *touch = [touches anyObject];
     //    指一本だけ情報を所得
     CGPoint location = [touch locationInView:self.view];
