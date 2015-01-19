@@ -69,9 +69,21 @@
     UIImage *makingRing = [UIImage imageNamed:@"fantasticPics_startring"];
     making = [[UIImageView alloc]initWithImage:makingRing];
     
-    making.center = CGPointMake(location.x, location.y);
-    
+//    making.center = CGPointMake(location.x, location.y);
+    CGRect rect = CGRectMake(location.x -25, location.y-25, 50, 50);
+    making.frame = rect;
     [self.view addSubview:making];
+    
+    [UIView animateWithDuration:1.1f // アニメーション速度2.5秒
+                          delay:0.0f // 1秒後にアニメーション
+                        options:UIViewAnimationOptionCurveEaseInOut
+                     animations:^{
+                         // 画像を2倍に拡大
+                         making.transform = CGAffineTransformMakeScale(1.7,  1.7);
+                         making.alpha = 0;
+                     } completion:^(BOOL finished) {
+                         // アニメーション終了時
+                     }];
 }
 
 -(void)ring{
