@@ -185,6 +185,9 @@
     NSData* imageData = [[NSUserDefaults standardUserDefaults] objectForKey:@"hogehoge"];
     if(imageData) {
         self.photoView.image = [UIImage imageWithData:imageData];
+        //ビューのサイズを写真に合わせたい
+//        self.photoImage.size = 
+        
         
         NSLog(@"復元完了");
         [[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"hogehoge"];
