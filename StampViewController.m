@@ -14,6 +14,12 @@
 
 @implementation StampViewController
 
+
+/*んーどうしてできひんねん*/
+//@synthesize photoView;
+//@synthesize photoImage;
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -186,8 +192,15 @@
     if(imageData) {
         self.photoView.image = [UIImage imageWithData:imageData];
         //ビューのサイズを写真に合わせたい
-//        self.photoImage.size = 
-        
+//        self.photoImage.size =
+//        CGSize cs = self.photoImage.size;
+//        self.photoView.frame = cs;
+
+        self.photoView = [[UIImageView alloc]initWithImage:self.photoImage];
+        CGRect rect = CGRectMake(0, 0, self.photoImage.size.height , self.photoImage.size.width);
+        self.photoView.frame = rect;
+        [self.view addSubview:self.photoView];
+
         
         NSLog(@"復元完了");
         [[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"hogehoge"];

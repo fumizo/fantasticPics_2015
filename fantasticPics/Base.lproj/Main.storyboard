@@ -130,10 +130,6 @@
                                     <action selector="saveImage" destination="c3H-Zx-qAH" eventType="touchUpInside" id="aOw-up-PrN"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="L3o-FI-Fxr">
-                                <rect key="frame" x="0.0" y="28" width="320" height="320"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Bsq-w3-x7b">
                                 <rect key="frame" x="238" y="362" width="75" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -153,7 +149,6 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="photoView" destination="L3o-FI-Fxr" id="Znl-5M-Yqg"/>
                         <outlet property="stampScrool" destination="o1c-Du-YuT" id="ORU-za-0Hd"/>
                     </connections>
                 </viewController>
