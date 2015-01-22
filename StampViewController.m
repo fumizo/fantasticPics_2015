@@ -209,7 +209,8 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    isReSize = YES;
+    [self.navigationController setNavigationBarHidden:YES animated:YES]; //NavigationBarを非表示
+
     
     NSData* imageData = [[NSUserDefaults standardUserDefaults] objectForKey:@"hogehoge"];
     if(imageData) {
@@ -234,28 +235,6 @@
     }
 }
 
-- (IBAction)saveImage {
-    //    キャプチャする範囲の指定
-    CGRect rect = CGRectMake(0, 46, 320, 320);
-    
-    UIGraphicsBeginImageContext(rect.size);
-    
-    [self.view.layer renderInContext:UIGraphicsGetCurrentContext()];
-    UIImage *capture = UIGraphicsGetImageFromCurrentImageContext();
-    
-    UIGraphicsEndImageContext();
-    
-    //    キャプチャした画像の範囲
-    UIImageWriteToSavedPhotosAlbum(capture, nil, nil, nil);
-    UIGraphicsEndImageContext();
-    
-    //    アラートを出す
-    UIAlertView *alert =[[UIAlertView alloc] initWithTitle:@"【attention】" message:@"SAVE complete!" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
-    [alert show ];
-    //　　アラートを画面に設定する
-    //    timer = [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(count) userInfo:nil repeats:YES];
-
-}
 -(IBAction)back{
     
     NSData* imageData = [[NSUserDefaults standardUserDefaults] objectForKey:@"cache"];

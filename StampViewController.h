@@ -41,7 +41,7 @@
     CGPoint prevPoint;
     CGAffineTransform startTransform;
 
-    BOOL isReSize;//四隅のやつがいらなくなったらnoにいるときはonに
+//    BOOL isReSize;//四隅のやつがいらなくなったらnoにいるときはonに
     
 }
 
@@ -59,7 +59,7 @@
 @property IBOutlet UIImageView * photoView;
 @property (nonatomic) UIImage *photoImage;
 
--(IBAction)saveImage;
+
 //-(IBAction)goNext;
 
 @end

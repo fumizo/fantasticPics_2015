@@ -35,7 +35,6 @@
 		4F2C928E1A4BF4B200034887 /* highBall_miho_sozai.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F2C92821A4BF4B200034887 /* highBall_miho_sozai.png */; };
 		4F2C928F1A4BF4B200034887 /* MUSEE.logo_sozai.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F2C92831A4BF4B200034887 /* MUSEE.logo_sozai.png */; };
 		4F2C92901A4BF4B200034887 /* MUSEE_summer_sozai.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F2C92841A4BF4B200034887 /* MUSEE_summer_sozai.png */; };
-		4F2C92911A4BF4B200034887 /* MUSEE_夏恋肌.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F2C92851A4BF4B200034887 /* MUSEE_夏恋肌.png */; };
 		4F2C92921A4BF4B200034887 /* simamura_logo_sozai.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F2C92861A4BF4B200034887 /* simamura_logo_sozai.png */; };
 		4F2C92931A4BF4B200034887 /* simamura_logo_sozai1024*1024].png in Resources */ = {isa = PBXBuildFile; fileRef = 4F2C92871A4BF4B200034887 /* simamura_logo_sozai1024*1024].png */; };
 		4F2C92941A4BF4B200034887 /* UT_990yen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F2C92881A4BF4B200034887 /* UT_990yen.jpg */; };
@@ -53,6 +52,8 @@
 		4FC662B61A70ED0100CCFF97 /* fantasticPics_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FC662AB1A70ED0100CCFF97 /* fantasticPics_save.png */; };
 		4FC662B71A70ED0100CCFF97 /* fantasticPics_startButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FC662AC1A70ED0100CCFF97 /* fantasticPics_startButton.png */; };
 		4FC662B81A70ED0100CCFF97 /* fantasticPics_startring.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FC662AD1A70ED0100CCFF97 /* fantasticPics_startring.png */; };
+		4FC662BB1A70F8C400CCFF97 /* DoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC662BA1A70F8C400CCFF97 /* DoneViewController.m */; };
+		4FC662BD1A7101FD00CCFF97 /* fantasticPics_done.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FC662BC1A7101FD00CCFF97 /* fantasticPics_done.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,7 +104,6 @@
 		4F2C92821A4BF4B200034887 /* highBall_miho_sozai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highBall_miho_sozai.png; sourceTree = "<group>"; };
 		4F2C92831A4BF4B200034887 /* MUSEE.logo_sozai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MUSEE.logo_sozai.png; sourceTree = "<group>"; };
 		4F2C92841A4BF4B200034887 /* MUSEE_summer_sozai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MUSEE_summer_sozai.png; sourceTree = "<group>"; };
-		4F2C92851A4BF4B200034887 /* MUSEE_夏恋肌.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MUSEE_夏恋肌.png"; sourceTree = "<group>"; };
 		4F2C92861A4BF4B200034887 /* simamura_logo_sozai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simamura_logo_sozai.png; sourceTree = "<group>"; };
 		4F2C92871A4BF4B200034887 /* simamura_logo_sozai1024*1024].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "simamura_logo_sozai1024*1024].png"; sourceTree = "<group>"; };
 		4F2C92881A4BF4B200034887 /* UT_990yen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UT_990yen.jpg; sourceTree = "<group>"; };
@@ -122,6 +122,9 @@
 		4FC662AB1A70ED0100CCFF97 /* fantasticPics_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fantasticPics_save.png; sourceTree = "<group>"; };
 		4FC662AC1A70ED0100CCFF97 /* fantasticPics_startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fantasticPics_startButton.png; sourceTree = "<group>"; };
 		4FC662AD1A70ED0100CCFF97 /* fantasticPics_startring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fantasticPics_startring.png; sourceTree = "<group>"; };
+		4FC662B91A70F8C400CCFF97 /* DoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DoneViewController.h; path = ../DoneViewController.h; sourceTree = "<group>"; };
+		4FC662BA1A70F8C400CCFF97 /* DoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DoneViewController.m; path = ../DoneViewController.m; sourceTree = "<group>"; };
+		4FC662BC1A7101FD00CCFF97 /* fantasticPics_done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fantasticPics_done.png; path = ../fantasticPics_done.png; sourceTree = "<group>"; };
 		C303F74F678D169E28779ECB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D8063E9712DF391DC90CF6FD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -211,6 +214,8 @@
 				4F0322CF1A62C4DD00E0B6D4 /* AnimationViewController.m */,
 				4F8F70101A459ABE002AAC95 /* StampViewController.h */,
 				4F8F70111A459ABE002AAC95 /* StampViewController.m */,
+				4FC662B91A70F8C400CCFF97 /* DoneViewController.h */,
+				4FC662BA1A70F8C400CCFF97 /* DoneViewController.m */,
 				4F0A32A21A35EEF600147905 /* Main.storyboard */,
 				4F0A32A51A35EEF600147905 /* Images.xcassets */,
 				4F0A32A71A35EEF600147905 /* LaunchScreen.xib */,
@@ -254,7 +259,6 @@
 				4F2C92821A4BF4B200034887 /* highBall_miho_sozai.png */,
 				4F2C92831A4BF4B200034887 /* MUSEE.logo_sozai.png */,
 				4F2C92841A4BF4B200034887 /* MUSEE_summer_sozai.png */,
-				4F2C92851A4BF4B200034887 /* MUSEE_夏恋肌.png */,
 				4F2C92861A4BF4B200034887 /* simamura_logo_sozai.png */,
 				4F2C92871A4BF4B200034887 /* simamura_logo_sozai1024*1024].png */,
 				4F2C92881A4BF4B200034887 /* UT_990yen.jpg */,
@@ -279,6 +283,7 @@
 		4FC662A21A70ED0100CCFF97 /* fantasticPics_Image */ = {
 			isa = PBXGroup;
 			children = (
+				4FC662BC1A7101FD00CCFF97 /* fantasticPics_done.png */,
 				4FC662A31A70ED0100CCFF97 /* fantasticPics_back.png */,
 				4FC662A41A70ED0100CCFF97 /* fantasticPics_backG.png */,
 				4FC662A51A70ED0100CCFF97 /* fantasticPics_carame.png */,
@@ -402,9 +407,9 @@
 				4F0A32A91A35EEF600147905 /* LaunchScreen.xib in Resources */,
 				4F2C92901A4BF4B200034887 /* MUSEE_summer_sozai.png in Resources */,
 				4F2C928F1A4BF4B200034887 /* MUSEE.logo_sozai.png in Resources */,
+				4FC662BD1A7101FD00CCFF97 /* fantasticPics_done.png in Resources */,
 				4F0322BD1A62A09600E0B6D4 /* close_gold.png in Resources */,
 				4F2C92941A4BF4B200034887 /* UT_990yen.jpg in Resources */,
-				4F2C92911A4BF4B200034887 /* MUSEE_夏恋肌.png in Resources */,
 				4F2C928E1A4BF4B200034887 /* highBall_miho_sozai.png in Resources */,
 				4F2C92931A4BF4B200034887 /* simamura_logo_sozai1024*1024].png in Resources */,
 				4FC662B01A70ED0100CCFF97 /* fantasticPics_carame.png in Resources */,
@@ -471,6 +476,7 @@
 				4F8F70121A459ABE002AAC95 /* StampViewController.m in Sources */,
 				4F0322D01A62C4DD00E0B6D4 /* AnimationViewController.m in Sources */,
 				4F0A32A11A35EEF600147905 /* ViewController.m in Sources */,
+				4FC662BB1A70F8C400CCFF97 /* DoneViewController.m in Sources */,
 				4F0322DC1A62D25400E0B6D4 /* mrmUtility.m in Sources */,
 				4F0A329E1A35EEF600147905 /* AppDelegate.m in Sources */,
 				4F0A329B1A35EEF600147905 /* main.m in Sources */,
