@@ -67,7 +67,7 @@
     CGPoint location = [touch locationInView:self.view];
     //   その位置を所得
     
-    UIImage *makingRing = [UIImage imageNamed:@"fantasticPics_startring"];
+    UIImage *makingRing = [UIImage imageNamed:@"fantasticPics_ring"];
     making = [[UIImageView alloc]initWithImage:makingRing];
     
 //    making.center = CGPointMake(location.x, location.y);

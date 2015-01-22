@@ -12,9 +12,10 @@
 
 @end
 
-@implementation StampViewController
+@implementation StampViewController{
+    UIImageView *making;
 
-
+}
 /*んーどうしてできひんねん*/
 //@synthesize photoView;
 //@synthesize photoImage;
@@ -42,7 +43,7 @@
     //    スクロールしたときに反動させるかどうか
     stampScrool.bounces=YES;
     //    サイズを設定する
-    CGRect rect = CGRectMake(0, 419, 320, 128);
+    CGRect rect = CGRectMake(0, 568-128, 320, 128);
     //　　UIImageViewを生成
     UIImageView *imageView =[[UIImageView alloc]initWithFrame:rect];
     
@@ -126,15 +127,38 @@
     
     }
 
+
+
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     
     //    タッチされた場所の所得
     UITouch *touch = [touches anyObject];
     //    指一本だけ情報を所得
     CGPoint location = [touch locationInView:self.view];
+    
+    /*さわったところにお花できるやつ
+    UIImage *makingRing = [UIImage imageNamed:@"fantasticPics_ring"];
+    making = [[UIImageView alloc]initWithImage:makingRing];
+    
+    //    making.center = CGPointMake(location.x, location.y);
+    CGRect rect = CGRectMake(location.x -25, location.y-25, 50, 50);
+    making.frame = rect;
+    [self.view addSubview:making];
+    
+    [UIView animateWithDuration:1.1f // アニメーション速度2.5秒
+                          delay:0.0f // 1秒後にアニメーション
+                        options:UIViewAnimationOptionCurveEaseInOut
+                     animations:^{
+                         // 画像を2倍に拡大
+                         making.transform = CGAffineTransformMakeScale(1.7,  1.7);
+                         making.alpha = 0;
+                     } completion:^(BOOL finished) {
+                         // アニメーション終了時
+                     }];
+     */
+
     //   その位置を所得
     if(index > 0){
-
         //In visible background view
         stampImgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:stampArray[index-1]]];
 //        stampView = [self.view viewWithTag:index-1];
@@ -159,7 +183,6 @@
         [stampView addGestureRecognizer:pinch];
          */
         [self.view addSubview:stampView]; //画像に表示する
-        
     }
 //    // UIPinchGestureRecognizerを登録
 //    UIPinchGestureRecognizer *pinch = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(pinchAction:)];
